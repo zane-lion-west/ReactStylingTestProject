@@ -40,7 +40,7 @@ const App = () => {
       <section id={s.goal_form}>
         <CourseInput onAddGoal={addGoalHandler} />
       </section>
-      <section id="goals">
+      <section id={s.goals}>
         {content}
         {/* {courseGoals.length > 0 && (
           <CourseGoalList
